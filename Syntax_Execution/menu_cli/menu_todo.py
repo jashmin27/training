@@ -1,7 +1,3 @@
-"""
-Program 14: To-Do List CLI
-Concepts used: lists, while loop, menu-driven design, indexing
-"""
 
 tasks = []
 

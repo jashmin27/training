@@ -1,7 +1,3 @@
-"""
-Program 6: Temperature Converter (Celsius <-> Fahrenheit <-> Kelvin)
-Concepts used: functions, conditional expressions
-"""
 
 def celsius_to_fahrenheit(c):
     return (c * 9 / 5) + 32

@@ -1,7 +1,3 @@
-"""
-Program 20: Advanced Text Formatter (padding, reverse, palindrome check)
-Concepts used: string slicing, formatting, functions
-"""
 
 def is_palindrome(s):
     cleaned = s.lower().replace(" ", "")

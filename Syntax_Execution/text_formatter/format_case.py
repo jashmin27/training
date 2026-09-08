@@ -1,7 +1,3 @@
-"""
-Program 17: Case Converter
-Concepts used: string methods
-"""
 
 text = input("Enter some text: ")
 

@@ -1,7 +1,4 @@
-"""
-Program 10: Average Grade Calculator (multiple subjects)
-Concepts used: lists, loops (preview), sum(), len()
-"""
+
 
 num_subjects = int(input("How many subjects? "))
 marks_list = []

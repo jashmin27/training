@@ -1,7 +1,3 @@
-"""
-Program 5: Length Converter (KM <-> Miles, Meters <-> Feet)
-Concepts used: variables, constants, arithmetic operators
-"""
 
 KM_TO_MILES = 0.621371
 METER_TO_FEET = 3.28084

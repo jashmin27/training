@@ -1,7 +1,4 @@
-"""
-Program 9: Single Subject Grade Calculator
-Concepts used: input, conditional expressions, if/elif/else (preview)
-"""
+
 
 marks = float(input("Enter marks obtained (out of 100): "))
 

@@ -1,7 +1,3 @@
-"""
-Program 8: Multi-Unit Converter (menu-based)
-Concepts used: menu loop, functions, dictionaries, while loop
-"""
 
 def length_menu():
     km = float(input("Enter km: "))

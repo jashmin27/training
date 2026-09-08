@@ -1,8 +1,3 @@
-"""
-Program 15: Number Utility Menu
-Concepts used: functions, modulus operator, boolean logic
-"""
-
 def is_even(n):
     return n % 2 == 0
 

@@ -1,7 +1,3 @@
-"""
-Program 18: Word & Character Counter
-Concepts used: string splitting, len(), basic counting logic
-"""
 
 text = input("Enter a sentence: ")
 

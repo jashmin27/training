@@ -1,7 +1,3 @@
-"""
-Program 16: Combined Dashboard Menu
-Concepts used: nested menus, function composition, imports (modular design)
-"""
 
 def grade_from_marks(marks):
     if marks >= 90: return "A+"

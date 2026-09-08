@@ -1,7 +1,3 @@
-"""
-Program 7: Weight Converter (KG <-> Pounds <-> Grams)
-Concepts used: variables, arithmetic, formatted output
-"""
 
 KG_TO_LB = 2.20462
 KG_TO_GRAM = 1000

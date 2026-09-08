@@ -1,7 +1,3 @@
-"""
-Program 19: Text Cleaner
-Concepts used: string methods (strip, replace), string immutability
-"""
 
 text = input("Enter text with extra spaces/punctuation: ")
 

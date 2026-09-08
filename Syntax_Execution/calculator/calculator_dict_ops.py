@@ -1,9 +1,3 @@
-"""
-Program 4: Calculator using a Dictionary of Operations
-Concepts used: dictionaries, functions as values, lambda expressions
-"""
-
-# Map each symbol to a function (lambda = small anonymous function)
 operations = {
     "+": lambda a, b: a + b,
     "-": lambda a, b: a - b,

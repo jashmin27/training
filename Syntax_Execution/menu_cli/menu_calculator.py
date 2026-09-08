@@ -1,7 +1,3 @@
-"""
-Program 13: Menu-driven Calculator CLI
-Concepts used: while loop, functions, menu pattern
-"""
 
 def add(a, b): return a + b
 def subtract(a, b): return a - b
