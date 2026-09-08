@@ -9,7 +9,6 @@ indentation, script execution, modules and imports.
 python_fundamentals/
 ├── calculator/            (4 programs)
 │   ├── calculator_basic.py         - basic +,-,*,/
-│   ├── calculator_scientific.py    - power, modulus, sqrt, log
 │   ├── calculator_functions.py     - refactored into functions
 │   └── calculator_dict_ops.py      - operations stored in a dict of lambdas
 │
