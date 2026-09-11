@@ -1,0 +1,3 @@
+[malformed] demo_logs\app.log: skipped 1 unparsable line(s)
+[empty] demo_logs\empty.log: file has no content
+[missing] demo_logs\does_not_exist.log: file does not exist

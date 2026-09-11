@@ -1,0 +1,7 @@
+timestamp,level,message,source_file,line_number
+2026-09-10 08:12:03,INFO,Server started on port 8080,app.log,1
+2026-09-10 08:14:51,WARNING,Disk usage above 80%,app.log,2
+2026-09-10 08:15:02,ERROR,Failed to connect to database,app.log,3
+2026-09-10 09:03:44,DEBUG,Cache warmed in 120ms,app.log,6
+2026-09-10 09:20:10,CRITICAL,"Out of memory, restarting worker",app.log,7
+2026-09-10 09:21:00,INFO,Worker restarted successfully,app.log,8

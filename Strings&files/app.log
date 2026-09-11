@@ -1,0 +1,8 @@
+2026-09-10 08:12:03 INFO Server started on port 8080
+2026-09-10 08:14:51 WARNING Disk usage above 80%
+2026-09-10 08:15:02 ERROR Failed to connect to database
+
+not a real log line at all
+2026-09-10 09:03:44 DEBUG Cache warmed in 120ms
+2026-09-10 09:20:10 CRITICAL Out of memory, restarting worker
+2026-09-10 09:21:00 INFO Worker restarted successfully
