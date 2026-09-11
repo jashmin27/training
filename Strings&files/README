@@ -1,0 +1,56 @@
+# log_report.py
+
+A small Python script that reads app log files and turns them into a CSV report + JSON summary. I wrote this mostly to practice string handling, pathlib, and reading/writing files safely (without the whole thing crashing the moment it hits one bad line or a missing file).
+
+## What it actually does
+
+You give it one or more log files that look like this:
+
+```
+2026-09-10 08:12:03 INFO  Server started on port 8080
+2026-09-10 08:14:51 WARNING Disk usage above 80%
+2026-09-10 08:15:02 ERROR Failed to connect to database
+```
+
+and it spits out:
+
+- `report.csv` – every parsed log line as a row
+- `summary.json` – counts by level, counts by hour, a handful of sample error messages
+- `problems.log` – anything that went wrong along the way (missing file, empty file, bad encoding, lines that didn't match the format)
+
+Nothing fancy, just a straightforward parse -> summarize -> write pipeline.
+
+## Running it
+
+There's no setup needed, no dependencies outside the standard library.
+
+```
+python log_report.py
+```
+
+Running it directly will generate a sample log folder (`demo_logs/`) with a mix of good lines, a blank line, a malformed line, and even a file that doesn't exist on purpose — just so you can see how the error handling behaves. Output goes into `demo_output/`.
+
+If you want to point it at your own logs, import the functions instead of running the file directly:
+
+```python
+from log_report import run
+
+summary = run(["path/to/app.log", "path/to/other.log"], output_dir="reports")
+```
+
+## Why it's built this way
+
+A few small decisions worth knowing about if you're reading the code:
+
+- Bad lines/files don't raise exceptions — they get collected into a `problems` list and reported at the end. The idea is one bad file shouldn't kill a batch job that's processing twenty others.
+- Encoding is always explicit (`utf-8`), never left to whatever the OS defaults to. Saves you from the classic "works on my machine" bug.
+- Uses `pathlib` everywhere instead of raw string paths, so it behaves the same on Windows/Mac/Linux.
+- Output directories get created automatically if they don't exist yet.
+
+## Files in here
+
+- `log_report.py` — the whole thing, one file
+- `demo_logs/`, `demo_output/` — generated when you run the script, safe to delete and regenerate
+- `report.csv` — sample output already included so you can peek at the format without running anything
+
+That's about it. Feel free to poke around the code, it's commented pretty heavily since I built it partly as a learning exercise.
