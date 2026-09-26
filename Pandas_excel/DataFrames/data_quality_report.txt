@@ -1,0 +1,83 @@
+=======================================================
+DATA QUALITY REPORT - employee_data.csv
+=======================================================
+
+1. Shape of data
+Rows: 32, Columns: 8
+
+2. First 5 rows
+   EmployeeID          Name   Age Department   Salary        City    JoinDate                Email
+0        1001   Suresh Babu  28.0  Marketing  25000.0   Hyderabad         NaN                  NaN
+1        1002   Vivek Anand  22.0    Finance  60000.0   Hyderabad  2022-01-15   vivek2@company.com
+2        1003     Arjun Rao  30.0      Sales  28000.0   Hyderabad         NaN   arjun3@company.com
+3        1004    Divya Nair  -5.0      Sales  28000.0   Hyderabad  15-03-2021                  NaN
+4        1005  Vikram Singh  35.0  Marketing  45000.0  Bangalore   2022-01-15  vikram5@company.com
+
+3. Column dtypes
+EmployeeID      int64
+Name              str
+Age           float64
+Department        str
+Salary        float64
+City              str
+JoinDate          str
+Email             str
+
+4. Missing values per column
+            missing_count  missing_%
+EmployeeID              0        0.0
+Name                    0        0.0
+Age                     3        9.4
+Department              0        0.0
+Salary                  5       15.6
+City                    0        0.0
+JoinDate                6       18.8
+Email                   6       18.8
+
+5. Duplicate rows
+Full duplicate rows found: 2
+Duplicate rows (excluding first occurrence):
+    EmployeeID         Name   Age Department   Salary       City    JoinDate Email
+30        1004   Divya Nair  -5.0      Sales  28000.0  Hyderabad  15-03-2021   NaN
+31        1011  Suresh Babu  28.0  Marketing  28000.0  Hyderabad  2021-09-09   NaN
+
+6. Numeric columns - basic stats
+             Age         Salary
+count  29.000000      27.000000
+mean   25.655172   56814.814815
+std    14.044002   42459.063576
+min    -5.000000   25000.000000
+25%    22.000000   28000.000000
+50%    28.000000   45000.000000
+75%    35.000000   60000.000000
+max    45.000000  150000.000000
+
+Suspicious values:
+- Negative age entries: 4 (Age can't be negative, likely bad data entry)
+- Salary above 1,00,000: 4 row(s) - worth double-checking, could be a typo
+
+7. 'City' column - unique values (before cleaning)
+['Bangalore', 'Bangalore ', 'Chennai', 'Hyderabad', 'Mumbai', 'chennai', 'hyderabad']
+Notice: same city appears multiple times due to case (Hyderabad vs hyderabad)
+and extra spaces (e.g. 'Bangalore '). Needs standardizing (strip + title case).
+
+8. 'JoinDate' column - sample values
+<StringArray>
+['2022-01-15', '15-03-2021', '2021-09-09', '2020/07/01', '2023-11-02']
+Length: 5, dtype: str
+Notice: dates are in different formats (YYYY-MM-DD, DD-MM-YYYY, YYYY/MM/DD).
+Needs to be converted to one consistent format before analysis.
+
+9. 'Email' column
+Missing emails: 6 out of 32
+
+=======================================================
+SUMMARY OF ISSUES FOUND
+=======================================================
+- 20 missing values total, spread across 4 column(s)
+- 2 duplicate row(s)
+- 4 row(s) with negative age (invalid)
+- 4 row(s) with unusually high salary (needs check)
+- City names not standardized (case + spacing issues)
+- JoinDate has 3 different formats mixed together
+- 6 missing email(s)

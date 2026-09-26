@@ -1,0 +1,33 @@
+EmployeeID,Name,Age,Department,Salary,City,JoinDate,Email
+1001,Suresh Babu,28.0,Marketing,25000.0,Hyderabad,,
+1002,Vivek Anand,22.0,Finance,60000.0,Hyderabad,2022-01-15,vivek2@company.com
+1003,Arjun Rao,30.0,Sales,28000.0,Hyderabad,,arjun3@company.com
+1004,Divya Nair,-5.0,Sales,28000.0,Hyderabad,15-03-2021,
+1005,Vikram Singh,35.0,Marketing,45000.0,Bangalore ,2022-01-15,vikram5@company.com
+1006,Meera Pillai,28.0,Sales,60000.0,hyderabad,2022-01-15,meera6@company.com
+1007,Arjun Rao,-5.0,Sales,60000.0,Chennai,2021-09-09,arjun7@company.com
+1008,Suresh Babu,,Finance,150000.0,hyderabad,2020/07/01,suresh8@company.com
+1009,Ananya Iyer,30.0,Sales,75000.0,Bangalore ,2023-11-02,ananya9@company.com
+1010,Aditya Pillai,35.0,Finance,32000.0,Hyderabad,,aditya10@company.com
+1011,Suresh Babu,28.0,Marketing,28000.0,Hyderabad,2021-09-09,
+1012,Meera Pillai,-5.0,HR,,Mumbai,2020/07/01,meera12@company.com
+1013,Vivek Anand,,Sales,32000.0,hyderabad,2023-11-02,vivek13@company.com
+1014,Arjun Rao,22.0,HR,150000.0,hyderabad,2021-09-09,arjun14@company.com
+1015,Lakshmi Devi,22.0,Marketing,,Bangalore,,lakshmi15@company.com
+1016,Sneha Reddy,30.0,HR,45000.0,Mumbai,15-03-2021,sneha16@company.com
+1017,Kavya Krishnan,25.0,Engineering,150000.0,Chennai,,kavya17@company.com
+1018,Vikram Singh,45.0,Finance,75000.0,Mumbai,2023-11-02,vikram18@company.com
+1019,Manoj Kumar,30.0,Engineering,32000.0,Bangalore,15-03-2021,manoj19@company.com
+1020,Divya Nair,22.0,Marketing,45000.0,hyderabad,2020/07/01,
+1021,Neha Joshi,27.0,HR,,Bangalore,2021-09-09,neha21@company.com
+1022,Shreya Das,22.0,Marketing,28000.0,Chennai,2023-11-02,shreya22@company.com
+1023,Kavya Krishnan,45.0,Sales,60000.0,Hyderabad,15-03-2021,kavya23@company.com
+1024,Priya Sharma,40.0,Finance,25000.0,Hyderabad,2022-01-15,priya24@company.com
+1025,Meera Pillai,25.0,HR,25000.0,Hyderabad,15-03-2021,meera25@company.com
+1026,Vikram Singh,35.0,HR,,Chennai,2022-01-15,vikram26@company.com
+1027,Kavya Krishnan,,Marketing,150000.0,hyderabad,2022-01-15,kavya27@company.com
+1028,Suresh Babu,35.0,Marketing,45000.0,Bangalore ,2022-01-15,suresh28@company.com
+1029,Sanjay Patel,40.0,Engineering,25000.0,chennai,,sanjay29@company.com
+1030,Arjun Rao,35.0,Finance,,Bangalore,2020/07/01,arjun30@company.com
+1004,Divya Nair,-5.0,Sales,28000.0,Hyderabad,15-03-2021,
+1011,Suresh Babu,28.0,Marketing,28000.0,Hyderabad,2021-09-09,
