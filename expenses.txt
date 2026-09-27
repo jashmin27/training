@@ -1,6 +1,0 @@
-Bus ticket,20
-Lunch,100
-Bus ticket,20
-Lunch,100
-Bus ticket,20
-Lunch,100
