@@ -1,0 +1,13 @@
+Performance Comparison Results
+===============================
+
+Dataset size: 1,000,000 rows
+
+Loop version (20,000 rows): 0.753 seconds
+Vectorized version (same 20,000 rows): 0.0005 seconds
+Vectorized version (full 1,000,000 rows): 0.011 seconds
+Chunked version (full 1,000,000 rows, 100k per chunk): 0.012 seconds
+
+Results match between loop and vectorized: True
+
+Speedup (same row count): 1546x faster with vectorization
