@@ -1,0 +1,5 @@
+Git Basics Practice
+--------------------
+Started this file to try out the basic git commands.
+Second line added to check status and diff.
+This line came from the add-feature branch.
