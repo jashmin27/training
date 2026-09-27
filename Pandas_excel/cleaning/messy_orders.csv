@@ -1,0 +1,16 @@
+order_id,customer_name,email,signup_date,amount,quantity,city,status
+1001,Ravi Kumar,ravi.kumar@gmail.com,2023-01-15,1500,2,Hyderabad,Delivered
+1002,priya sharma,priya.sharma@yahoo.com,15/01/2023,2300.5,1,Bangalore,delivered
+1003,Amit Verma,amit.verma@gmail.com,2023-02-01,,3,Chennai,Delivered
+1004,Sneha Reddy,sneha.reddy@gmail.com,2023-02-10,1200,NaN,Hyderabad ,Pending
+1005,Ravi Kumar,ravi.kumar@gmail.com,2023-01-15,1500,2,Hyderabad,Delivered
+1006,Karan Singh,karan.singh@,2023-03-05,3400,1,Mumbai,DELIVERED
+1007,,anita.das@gmail.com,2023-03-12,999,4,Kolkata,Cancelled
+1008,Anita Das,anita.das@gmail.com,03-12-2023,999,4,Kolkata,cancelled
+1009,Vikram Rao,vikram.rao@gmail.com,2023-04-01,-500,2,pune,Delivered
+1010,Meena Iyer,meena.iyer@gmail.com,2023/04/18,1800,1,Chennai,Delivered
+1011,Suresh Nair,suresh.nair@gmail.com,,2100,2,Bangalore,Pending
+1012,Divya Menon,divya.menon@gmail.com,2023-05-02,1600,1,Hyderabad,delivered
+1013,Rahul Gupta,rahul.gupta@gmail.com,2023-05-15,2200,two,Delhi,Delivered
+1014,Kavya Pillai,kavya.pillai@gmail.com,2023-06-01,1450,1,delhi,Pending
+1015,Arjun Nair,arjun.nair@gmail.com,2023-06-10,1999,1,Mumbai,Delivered
